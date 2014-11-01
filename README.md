@@ -13,8 +13,10 @@ Features to implement:
 
 - load remote dependencies with differen file types
   - JavaScript
-  - css
-  - fonts
-  - images
+  - CSS
+  - Fonts (fontawesome)
+  - Images
 - povide development remote dependencies   
-- bundle files for the browser
+- bundle/build files for the browser
+  - handle CSS URL rewriting for images and fonts
+  - handle css vendor prefixes (the raw code should not contain prefixes)
